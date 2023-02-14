@@ -1,2 +1,2 @@
-# hello-world
+# ansys-whats-error
 my first repository
