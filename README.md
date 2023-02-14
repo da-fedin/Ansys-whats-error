@@ -1,2 +1,2 @@
 # ansys-whats-error
-extension repository
+first extension repository
