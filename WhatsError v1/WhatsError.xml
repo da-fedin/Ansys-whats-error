@@ -4,11 +4,21 @@
   <script src="WhatsError.py" />
   <interface context="Mechanical">      
     <images>images</images>
-    <callbacks>
-      <oninit>GetError</oninit>
-    </callbacks>  
     <toolbar name="WhatsError" caption="WhatsError">
-      <entry name="WhatsError" icon="watserror"></entry>
+      <entry name="WhatsError" icon="watserror">
+        <callbacks>
+          <OnClick>GetError</OnClick>
+        </callbacks>
+      </entry>
     </toolbar>
   </interface>
+    <!--<simdata context="Mechanical">
+        <load name="What's Error" version="1">
+            <callbacks>
+                <getcommands location="post">
+                    GetError
+                </getcommands>
+            </callbacks>
+        </load>
+    </simdata>-->
 </extension>
