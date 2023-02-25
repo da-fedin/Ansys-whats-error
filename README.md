@@ -7,6 +7,9 @@ During the debuging of the **Ansys Mechanical** analyses one faces with troubles
 It's annoing! This repo contains demo source files for the scripted **ACT-extension** which allows to show native **MAPDL** error message in one click.
 ## How does it work?
 Place these files on the local drive and install them as a scripted **ACT-extension** to **Ansys Workbench**. After that, **WhatsError toolbar** will be acceptable in Mechanical GUI with one button showing the error message after solve.
+
+![bar image](https://github.com/da-fedin/Ansys-whats-error/blob/main/WhatsError%20v1/WhatsError/images/bar.PNG)
+
 ## Who can use it?
 This code can be used by Ansys users with the **appropriate license**.
 ## What is the goal of this project?
