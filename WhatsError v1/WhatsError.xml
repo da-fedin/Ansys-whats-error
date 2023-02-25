@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1" minorversion="1" name="WhatsError">
+  <author>dafedin</author>
+  <script src="WhatsError.py" />
+  <interface context="Mechanical">      
+    <images>images</images>
+    <callbacks>
+      <oninit>GetError</oninit>
+    </callbacks>  
+    <toolbar name="WhatsError" caption="WhatsError">
+      <entry name="WhatsError" icon="watserror"></entry>
+    </toolbar>
+  </interface>
+</extension>
